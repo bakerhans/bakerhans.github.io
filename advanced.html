@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pling Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="nav-links">
+            <a href="file:///C:/Users/Hans/Desktop/CS50Web-2023/Week%200/project-0/project0-cs50-web-2023/index.html">Index</a>
+            <a href="file:///C:/Users/Hans/Desktop/CS50Web-2023/Week%200/project-0/project0-cs50-web-2023/image.html">Image Search</a>
+        </div>
+        <div>
+            <img class="googlelogo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272" height="92">
+        </div>
+        <div class="flex-container">
+            <form action="https://www.google.com/search" class="adv">
+                <div class="flex-container">
+                    <div>
+                        <label for="all">All these words: </label>
+                        <!-- All words query name seems to be 'as_q'-->
+                        <input id="all" class="form-box" type="text" name="as_q" style="margin-left: 80px;">
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div>
+                        <label for="exact">This exact word or phrase: </label>
+                        <!-- All words query name seems to be 'as_epq'-->
+                        <input id="exact" class="form-box" type="text" name="as_epq" style="margin-left:4px;">
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div>
+                        <label for="any">Any of these words: </label>
+                        <!-- All words query name seems to be 'as_oq'-->
+                        <input id="any" class="form-box" type="text" name="as_oq" style="margin-left: 50px;">
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div>
+                        <label for="none">None of these words: </label>
+                        <!-- None of these words query name seems to be 'as_eq'-->
+                        <input id="none" class="form-box" type="text" name="as_eq" style="margin-left: 38px;">
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div>
+                        <input class="form-button" type="submit" value="Advanced Search" id="advanced-button">
+                    </div>
+                </div> 
+            </form>
+        </div>
+    </body>
+</html>

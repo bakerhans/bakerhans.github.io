@@ -1,0 +1,57 @@
+$color: #202124;
+
+h1 {
+	color: $color;
+	text-align: center;
+}
+
+%text {
+	font-family: arial, sans-serif;
+	color: $color;
+}
+
+p, a, input, label, form {
+	@extend %text;
+}
+
+form {
+	text-align: center;
+	vertical-align: center;
+}
+
+.nav-links {
+	@extend %text;
+	text-align: right;
+}
+
+.form-box {
+	border-radius: 10px;
+	padding: 7.5px;
+}
+
+.form-button {
+	padding: 7.5px;
+	margin: 5px;
+}
+
+.adv {
+	text-align: left;
+}
+
+#advanced-button {
+	color: white;
+	background-color: blue;
+}
+
+.form-box {
+	padding-right: 200px;
+}
+
+.googlelogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+

@@ -1,0 +1,12 @@
+I'm Hans, a data scientist and product owner based in Amsterdam, The Netherlands. I enjoy working at the intersection of technology, business and sustainability.
+
+I've worked in the last several years at the Rainforest Alliance, supporting its mission to enable people and planet to thrive in harmony. I've worn different hats over the years, having worked as a data analyst, business analyst, product owner and business intelligence developer.
+
+My major contributions have been facilitating the software development of a data and supply chain mapping platform (the Palm Industry Platform), and supporting companies such as Unilever to ideate and develop sustainability analytics for their global palm oil supply chain.
+I've also been involved in developing internal business intelligence products, ranging from self-service PowerBI dashboards reporting on production and sales figures for major crops, as well as a child labor and forced risk mapping tool.
+
+I've previously worked at Verisk Maplecroft, the International Labour Organization and Fairfood International.
+
+In my free time, I work on machine learning projects to help solve problems in my community and to keep up with modern methods and tools in the artificial intelligence space.
+
+I graduated from the University of Birmingham in 2012 with a bachelor's degree in economics, and from SOAS, University of London in 2013 with a master's degree in development studies.
