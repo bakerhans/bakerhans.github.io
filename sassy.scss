@@ -11,7 +11,7 @@ h1 {
 }
 
 p, a, input, label, form {
-	@extend %text !important;
+	@extend %text;
 }
 
 form {
