@@ -1,51 +1,17 @@
-h1 {
-  color: #202124;
-  text-align: center;
-}
+/* Error: Expected "optional".
+ *    ,
+ * 14 |     @extend %text !important;
+ *    |                    ^
+ *    '
+ *   sassy.scss 14:17  root stylesheet */
 
-.nav-links, p, a, input, label, form {
-  font-family: arial, sans-serif;
-  color: #202124;
-}
-
-form {
-  text-align: center;
-  vertical-align: center;
-}
-
-.nav-links {
-  text-align: right;
-}
-
-.form-box {
-  border-radius: 10px;
-  padding: 7.5px;
-}
-
-.form-button {
-  padding: 7.5px;
-  margin: 5px;
-}
-
-.adv {
-  text-align: left;
-}
-
-#advanced-button {
-  color: white;
-  background-color: blue;
-}
-
-.form-box {
-  padding-right: 200px;
-}
-
-.googlelogo {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Expected "optional".\a    \2577 \a 14 \2502      @extend %text !important;\d\a    \2502                     ^\a    \2575 \a   sassy.scss 14:17  root stylesheet';
 }
-
-/*# sourceMappingURL=styles.css.map */
